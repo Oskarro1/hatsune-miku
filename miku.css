@@ -1,0 +1,79 @@
+.miku {
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-left: 15%;
+    padding-top: 50px;
+    color: rgb(160, 225, 241); 
+}
+
+.miku_obr {
+    width: 100%;
+    max-width: 45%;
+    float: right;
+}
+
+.logom {
+    max-width: 50%;
+}
+
+
+h4 {
+    color: rgb(160, 225, 241);
+    font-size: x-large;
+    letter-spacing: 4px;
+    
+    
+}
+
+#kto {
+    margin-left: 1%;
+    background-color: rgb(82, 166, 187);
+    background-size: contain;
+    border-radius: 10px;
+    width: 30%;
+}
+
+#jak {
+    margin-left: 1%;
+    background-color: rgb(82, 166, 187);
+    background-size: contain;
+    border-radius: 10px;
+    width: 30%;
+}
+
+#tło {
+    background-color: rgb(115, 131, 136);
+    width: auto;
+    height:fit-content;
+    border-radius: 10px;
+
+}
+
+body {
+    min-width: 500px;
+}
+
+@media screen and (max-width: 500px) {
+    .miku {
+        padding-left: 5%;
+        padding-top: 20px;
+        float: center;
+    }
+    .miku_obr {
+        margin-top: 5%;
+        background-color: rgb(160, 225, 241);
+        border-radius: 30px;
+        width: 100%;
+        float: left;
+    }
+    #kto {
+        width: 100%;
+        text-size-adjust: auto;
+        padding-right: 5%;
+    }
+    #jak {
+        width: 100%;
+        text-size-adjust: auto;
+        padding-right: 5%;
+    }
+}
